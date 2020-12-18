@@ -1,0 +1,32 @@
+<!--File for members using extension from base htnml-->
+
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Results</h2>
+
+{% with confirmations = get_flashed_messages(category_filter=["confirmation"]) %}
+{% if confirmations %}
+<div class="confirmation">
+  <a class="close" href="#">×</a>
+  <ul>
+    {%- for msg in confirmations %}
+      <li class="confirmMessage">{{ msg }}</li>
+    {% endfor -%}
+  </ul>
+</div>
+{% endif %}
+{% endwith %}
+
+   {% for title in titles %}
+    <!-- {{ titles[loop.index0] }} -->
+        {{ title | safe }}
+    {% endfor %}
+
+    {% for table in tables %}
+    <!-- {{ titles[loop.index0] }} -->
+        {{ table | safe }}
+    {% endfor %}
+
+
+{% endblock %}

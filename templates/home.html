@@ -1,0 +1,51 @@
+<!--File for homepage using extension from base htnml-->
+
+{% extends "base.html" %}
+{% block content %}
+  <h2>FAQs</h2>
+ 
+    <ul>
+        <li class = "question">What is the Fee Calculator?</li>
+        <p class="response">It's an application designed for Etsy sellers to automatically calculate fees and the net amount for each order. The below fees are taken into account. 
+            <ul>
+                <li>Transaction fee (5% of order value)</li>
+                <li>Shipping fee (5% of delivery)</li>
+                <li>Listing fee ($0.20 USD*)</li>
+           </ul>
+        
+        The calculator does not account for other fees such as from Etsy Ads at the moment.
+        *Amount is converted based on the currency selected.
+        
+        </p>
+    
+        <li class "question">How does it work?</li>
+        <p class = "response">Please refer to the Upload page for additional instructions.</p>
+    
+        <li class = "question">Does it save data?</li>
+        <p class = "response">No data is saved. However, please feel free to delete any confidential information prior to uploading the file. Only the below values are needed for the calculator to work. Please check out the Upload tab for further details.
+        <ul>
+            <li>Order Value</li>
+            <li>Delivery</li>
+            <li>Discount Amount</li>
+            <li>Delivery Discount</li>
+            <li>Card Processing Fees</li>
+        </ul>
+        </p>
+
+        <li class = "question">I can't find my currency. Is it possible to add it to the list?</li>
+        <p class = "response">Yes! Please send me a message via the Feedback page</p>
+
+        </ul>
+
+
+  <div class = "brandImage">
+    <table>
+      <tr>
+        <td id = "first" width = 40px>
+          <a><img height="426" width="640"src="https://cdn.pixabay.com/photo/2013/09/01/17/07/calculator-178127_1280.jpg"/> </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  {% endblock %}

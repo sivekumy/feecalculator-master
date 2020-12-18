@@ -1,0 +1,68 @@
+<!--File for receiving feedback-->
+
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Feedback</h2>
+
+<div class="confirmation">
+  <a class="close" href="#">×</a>
+  <ul>
+    {% with confirmations = get_flashed_messages(category_filter=["confirmation"]) %}
+    {% if confirmations %}
+    <div class="confirmation">
+      <a class="close" href="#">×</a>
+      <ul>
+        {%- for msg in confirmations %}
+          <li class="confirmMessage">{{ msg }}</li>
+        {% endfor -%}
+      </ul>
+    </div>
+    {% endif %}
+    {% endwith %}
+      
+    {%- for msg in confirmation %}
+      <li class="confirmMessage">{{ msg }}</li>
+    {% endfor -%}
+      
+    {%- for msg in form.name.errors %}
+      <li class="confirmMessage">{{ msg }}</li>
+    {% endfor -%}
+      
+    {% for msg in form.email.errors %}
+      <li class="confirmMessage">{{ msg }}</li>
+    {% endfor -%}
+    
+    {% for msg in form.subject.errors %}
+      <li class="confirmMessage">{{ msg }}</li>
+    {% endfor -%}
+      
+    {% for msg in form.message.errors %}
+      <li class="confirmMessage">{{ msg }}</li>
+    {% endfor -%}
+      
+  </ul>
+</div>
+
+<div class="formdiv">
+  <form action="{{url_for('feedback')}}" method="POST" enctype=multipart/form-data>
+    {{ form.hidden_tag }}
+ 
+    {{ form.name.label }}
+    {{ form.name }}
+
+    {{ form.email.label }}
+    {{ form.email }}
+
+    {{ form.subject.label }}
+    {{ form.subject }}
+
+    {{ form.message.label }}
+    {{ form.message }}
+
+    {{ form.submit }}
+      
+  </form>
+</div>
+
+{% endblock %}

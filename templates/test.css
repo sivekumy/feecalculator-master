@@ -1,0 +1,147 @@
+/*CSS for Form fields
+https://www.w3schools.com/css/css_form.asp*/
+
+/*HTML to format input field properties*/
+input[type=text],
+input[type=date],
+input[input=number],
+select {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline!important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*HTML to add padding to form labels*/
+label {
+  padding: 10px;
+}
+
+/*HTML to add design properties to submit buttons on the form*/
+input[type=submit] {
+  background-color: #4169E1;
+  color: white;
+  padding: 14px 20px;
+  width: 200px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4169E1;
+}
+
+/*HTML to add formatting form containers*/
+.formdiv {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+}
+
+#locationForm {
+  width: 875px;
+}
+
+#memberForm {
+  width: 950px;
+}
+
+#trainerForm, #UpdateTrainerForm {
+  width: 700px;
+}
+
+/*HTML to add styling to the navigation bar*/
+.navbar-nav {
+  background-color: #4169E1;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+/*HTML for the Home Page*/
+.slogan {
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 100px;
+  width: 51%;
+	text-align: center;
+	font-size: 50px;
+}
+
+.brandImage {
+  width: 1000px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+h2 {
+  margin-left:20px;
+  margin-bottom:20px;
+  color: #4169E1;
+  font-size:24px;
+}
+
+h3 {
+	font-size:20px;
+	color: #4169E1;
+}
+
+h4 {
+	font-size:40px;
+}
+
+table {
+  margin-left:50px;
+}
+
+.data th, td {
+  padding: 1px;
+  text-align: center;
+}
+
+.data th {
+  /* background-color:#F5F5F5; */
+    background-color: #4169E1;
+}
+
+.addButton {
+  margin-left:50px;
+}
+
+.form-inline {
+  margin-left:20px;
+  margin-bottom:15px;
+}
+
+.formdiv {
+  margin-left:20px;
+}
+
+.qual-table {
+  width: 30%;
+}
+
+.program-table {
+  width: 20%;
+}
+
+.trainer-table {
+  width: 80%;
+}
+
+.location-table, .member-table{
+  width: 80%;
+}
+
+.confirmMessage {
+  color:red;
+  font-size:20px;
+  list-style: none;
+}

@@ -1,0 +1,55 @@
+<!--File for members using extension from base htnml-->
+
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Results</h2>
+   <table class="table table-hover table-condensed member-table">
+   	<!-- <thead>
+   	<tr>
+   		<th>{{rows[0]}}</th>
+   		<th>{{rows[1]}}</th>
+   		<th>{{rows[2]}}</th>
+   		<th>{{rows[3]}}</th>
+   		<th>{{rows[4]}}</th>
+   		<th>{{rows[5]}}</th>
+   		<th>{{rows[6]}}</th>
+   		<th>{{rows[7]}}</th>
+   	</tr>
+   </thead> -->
+
+   <tbody>
+       
+       row
+
+<!-- {% for r in rows %}
+  <tr>
+   <td>{{r[0]}}</td>
+   <td>{{r[1]}}</td>
+   <td>{{r[2]}}</td>
+
+   {% if r[3] == 0 %}
+        <td>Male</td>
+   {% elif r[3] == 1 %}
+        <td>Female</td>
+   {% else %}
+        <td>Other</td>
+   {% endif %}
+
+        <td>{{r[4]}}</td>
+
+   {% if r[5] is none %}
+        <td></td>
+   {% else %}
+        <td>{{r[5]}}</td>
+   {% endif %}
+
+   <td>{{r[6]}}</td>
+   <td>{{r[7]}}</td>
+  </tr>
+  {% endfor %} -->
+  </tbody>
+
+</table>
+
+{% endblock %}

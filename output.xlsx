@@ -1,0 +1,16 @@
+Sale Date,Order ID,Number of Items,Payment Method,Date Posted,Currency,Order Value,Coupon Code,Coupon Details,Discount Amount,Delivery Discount,Delivery,Sales tax,Order total,Status,Card Processing Fees,Order Net,Adjusted Order Total,Adjusted Card Processing Fees,Adjusted Net Order Amount,Order Type,Payment Type,InPerson Discount,InPerson Location,SKU,Transaction Fee,Shipping Transaction Fee,Listing Fee,Order Net Updated
+09/19/20,1766894198,1,Credit Card,,CAD,6.0,,,0,0,2,0,8.0,,0.49,7.51,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.91
+09/18/20,1775834099,1,Credit Card,09/18/20,CAD,6.07,,,0,0,2,0,8.69,,0.51,7.56,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.96
+09/16/20,1774796667,1,Credit Card,09/18/20,CAD,6.0,,,0,0,2,0,8.55,,0.51,7.49,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.89
+09/15/20,1763338508,1,Credit Card,09/18/20,CAD,4.2,,,0,0,2,0,6.2,,0.44,5.76,0,0,0,online,online_cc,,,,0.21,0.10,0.20,5.25
+09/15/20,1773483973,1,Credit Card,09/18/20,CAD,6.0,,,0,0,2,0,8.0,,0.49,7.51,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.91
+09/15/20,1762514958,1,Credit Card,09/15/20,CAD,6.0,,,0,0,2,0,8.0,,0.49,7.51,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.91
+2009-12-20,1760349936,1,Credit Card,09/15/20,CAD,6.07,,,0,0,2,0,8.59,,0.51,7.56,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.96
+2009-12-20,1770696021,1,Credit Card,09/15/20,CAD,6.07,,,0,0,2,0,8.63,,0.51,7.56,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.96
+2009-11-20,1759487498,1,Credit Card,09/15/20,CAD,6.0,,,0,0,4,0,10.0,,0.65,9.35,0,0,0,online,online_cc,,,,0.30,0.20,0.20,8.65
+2009-11-20,1758802044,2,Credit Card,09/15/20,CAD,6.0,,,0,0,2,0,8.43,,0.5,7.5,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.90
+2009-07-20,1766286851,1,Credit Card,09/14/20,CAD,6.0,,,0,0,2,0,8.0,,0.49,7.51,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.91
+2009-07-20,1755229044,1,Credit Card,09/14/20,CAD,6.0,,,0,0,2,0,8.53,,0.51,7.49,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.89
+2009-05-20,1764424777,1,Credit Card,2009-11-20,CAD,6.02,,,0,0,2,0,8.69,,0.51,7.51,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.91
+2009-05-20,1763639587,1,Credit Card,2009-11-20,CAD,6.0,,,0,0,2,0,8.57,,0.51,7.49,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.89
+2009-01-20,1760072729,1,Credit Card,2009-03-20,CAD,6.0,,,0,0,2,0,8.69,,0.51,7.49,0,0,0,online,online_cc,,,,0.30,0.10,0.20,6.89
